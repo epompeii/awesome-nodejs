@@ -6,17 +6,6 @@
 	<br>
 	<br>
 	<br>
-	<div>
-		<sub>Check out my latest app</sub>
-		<br>
-		<h2>
-			<a href="https://www.producthunt.com/posts/any-text">Any Text</a>
-			<br>
-			<sup>Put any text on your iPhone's Lock Screen</sup>
-		</h2>
-	</div>
-	<br>
-	<br>
 	<br>
 	<hr>
 	<p>
@@ -61,55 +50,29 @@
 		</a>
 		<br>
 		<br>
-		<a href="https://getstream.io/chat/sdk/ios/?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Jan2022_iOSChatSDK&utm_term=Sindresorhus#gh-light-mode-only">
+		<a href="https://serpapi.com#gh-light-mode-only">
 			<div>
-				<img src="https://sindresorhus.com/assets/thanks/stream-logo.svg" width="220" alt="Stream">
+				<img src="https://sindresorhus.com/assets/thanks/serpapi-logo-light.svg" width="130" alt="SerpApi">
 			</div>
-			<br>
-			<div>
-				<b>Build Scalable Feeds & Chat Applications with Powerful APIs and Front End Components</b>
-			</div>
+			<b>API to get search engine results with ease.</b>
 		</a>
-		<a href="https://getstream.io/chat/sdk/ios/?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Jan2022_iOSChatSDK&utm_term=Sindresorhus#gh-dark-mode-only">
+		<a href="https://serpapi.com#gh-dark-mode-only">
 			<div>
-				<img src="https://sindresorhus.com/assets/thanks/stream-logo-dark.svg" width="220" alt="Stream">
+				<img src="https://sindresorhus.com/assets/thanks/serpapi-logo-dark.svg" width="130" alt="SerpApi">
 			</div>
-			<br>
-			<div>
-				<b>Build Scalable Feeds & Chat Applications with Powerful APIs and Front End Components</b>
-			</div>
+			<b>API to get search engine results with ease.</b>
 		</a>
 		<br>
 		<br>
 		<br>
-		<a href="https://www.useanvil.com/?utm_source=sindresorhus#gh-light-mode-only">
-			<div>
-				<img src="https://sindresorhus.com/assets/thanks/anvil-logo-light.svg" width="200" alt="Anvil">
-			</div>
-			<br>
-			<b>Paperwork that makes the data work.</b>
-			<div>
-				<sub>
-				Easy APIs for paperwork. PDF generation, e-signature and embeddable no-code webforms.
-				<br>
-				The easiest way to build paperwork automation into your product.
-				</sub>
-			</div>
+		<a href="https://transloadit.com?utm_source=sindresorhus&utm_medium=referral&utm_campaign=sponsorship&utm_content=awesome-nodejs">
+			<picture>
+				<source width="320" media="(prefers-color-scheme: dark)" srcset="https://sindresorhus.com/assets/thanks/transloadit-logo-dark.svg">
+				<source width="320" media="(prefers-color-scheme: light)" srcset="https://sindresorhus.com/assets/thanks/transloadit-logo.svg">
+				<img width="320" src="https://sindresorhus.com/assets/thanks/transloadit-logo.svg" alt="Transloadit logo">
+			</picture>
 		</a>
-		<a href="https://www.useanvil.com/?utm_source=sindresorhus#gh-dark-mode-only">
-			<div>
-				<img src="https://sindresorhus.com/assets/thanks/anvil-logo-dark.svg" width="200" alt="Anvil">
-			</div>
-			<br>
-			<b>Paperwork that makes the data work.</b>
-			<div>
-				<sub>
-				Easy APIs for paperwork. PDF generation, e-signature and embeddable no-code webforms.
-				<br>
-				The easiest way to build paperwork automation into your product.
-				</sub>
-			</div>
-		</a>
+		<br>
 		<br>
 		<br>
 	</p>
@@ -173,6 +136,7 @@
 	- [Email](#email)
 	- [Job queues](#job-queues)
 	- [Node.js management](#nodejs-management)
+	- [Cross-platform integration](#cross-platform-integration)
 	- [Natural language processing](#natural-language-processing)
 	- [Process management](#process-management)
 	- [Automation](#automation)
@@ -184,6 +148,7 @@
 	- [Weird](#weird)
 	- [Serialization](#serialization)
 	- [Miscellaneous](#miscellaneous)
+- [Package Manager](#package-manager)
 - [Resources](#resources)
 	- [Tutorials](#tutorials)
 	- [Discovery](#discovery)
@@ -257,7 +222,6 @@
 - [license-checker](https://github.com/davglass/license-checker) - Check licenses of your app's dependencies.
 - [browser-run](https://github.com/juliangruber/browser-run) - Easily run code in a browser environment.
 - [tmpin](https://github.com/sindresorhus/tmpin) - Adds stdin support to any CLI app that accepts file input.
-- [wifi-password](https://github.com/kevva/wifi-password-cli) - Get the current wifi password.
 - [wallpaper](https://github.com/sindresorhus/wallpaper) - Change the desktop wallpaper.
 - [pen](https://github.com/hatashiro/pen) - Live Markdown preview in the browser from your favorite editor.
 - [dark-mode](https://github.com/sindresorhus/dark-mode) - Toggle the macOS Dark Mode.
@@ -339,7 +303,7 @@
 - [get-stdin](https://github.com/sindresorhus/get-stdin) - Easier stdin.
 - [log-update](https://github.com/sindresorhus/log-update) - Log by overwriting the previous output in the terminal. Useful for rendering progress bars, animations, etc.
 - [Ink](https://github.com/vadimdemedes/ink) - React for interactive command-line apps.
-- [listr](https://github.com/samverschueren/listr) - Terminal task list.
+- [listr2](https://github.com/listr2/listr2) - Terminal task list.
 - [conf](https://github.com/sindresorhus/conf) - Simple config handling for your app or module.
 - [ansi-escapes](https://github.com/sindresorhus/ansi-escapes) - ANSI escape codes for manipulating the terminal.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
@@ -369,7 +333,7 @@
 - [Bit](https://github.com/teambit/bit) - Create, maintain, find and use small modules and components across repositories.
 - [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output.
 - [oclif](https://github.com/oclif/oclif) - CLI framework complete with parser, automatic documentation, testing, and plugins.
-- [term-size](https://github.com/sindresorhus/term-size) - Reliably get the terminal window size.
+- [terminal-size](https://github.com/sindresorhus/terminal-size) - Reliably get the terminal window size.
 - [Cliffy](https://github.com/drew-y/cliffy) - Framework for interactive CLIs.
 - [zx](https://github.com/google/zx) - Write shell scripts JavaScript.
 
@@ -383,6 +347,7 @@
 - [Brunch](https://github.com/brunch/brunch) - Front-end web app build tool with simple declarative config, fast incremental compilation, and an opinionated workflow.
 - [FuseBox](https://github.com/fuse-box/fuse-box) - Fast build system that combines the power of webpack, JSPM and SystemJS, with first-class TypeScript support.
 - [pkg](https://github.com/vercel/pkg) - Package your Node.js project into an executable.
+- [Vite](https://github.com/vitejs/vite) - Front-end build tool with hot module replacement and static asset bundling.
 
 ### Hardware
 
@@ -394,6 +359,7 @@
 - [spi-device](https://github.com/fivdi/spi-device) - SPI serial bus access.
 - [pigpio](https://github.com/fivdi/pigpio) - Fast GPIO, PWM, servo control, state change notification, and interrupt handling on the Raspberry Pi.
 - [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers.
+- [modbus-serial](https://github.com/yaacov/node-modbus-serial) - A pure JavaScript implementation of MODBUS-RTU (serial and TCP).
 
 ### Templating
 
@@ -426,7 +392,8 @@
 - [Tinyhttp](https://github.com/tinyhttp/tinyhttp) - Modern and fast Express-like web framework.
 - [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
 - [Lad](https://github.com/ladjs/lad) - Framework made by a former Express TC and Koa member that bundles web, API, job, and proxy servers.
-- [Ts.ED](https://github.com/tsedio/tsed) - Intituive TypeScript framework for building server-side apps on top of Express.js or Koa.js. 
+- [Ts.ED](https://github.com/tsedio/tsed) - Intituive TypeScript framework for building server-side apps on top of Express.js or Koa.js.
+- [Hono](https://github.com/honojs/hono) - Small and fast web framework.
 
 ### Documentation
 
@@ -439,7 +406,6 @@
 
 - [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
 - [globby](https://github.com/sindresorhus/globby) - Glob files with support for multiple patterns.
-- [cpy](https://github.com/sindresorhus/cpy) - Copy files.
 - [chokidar](https://github.com/paulmillr/chokidar) - Filesystem watcher which stabilizes events from `fs.watch` and `fs.watchFile` as well as using native `fsevents` on macOS.
 - [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories.
 - [proper-lockfile](https://github.com/moxystudio/node-proper-lockfile) - Inter-process and inter-machine lockfile utility.
@@ -447,7 +413,6 @@
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
 - [fs-write-stream-atomic](https://github.com/npm/fs-write-stream-atomic) - Like `fs.createWriteStream()`, but atomic.
 - [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid filename.
-- [lnfs](https://github.com/kevva/lnfs) - Force create symlinks like `ln -fs`.
 - [istextorbinary](https://github.com/bevry/istextorbinary) - Check if a file is text or binary.
 - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - Completely redesigned file system API for convenience in everyday use.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
@@ -467,7 +432,7 @@
 	- [More…](https://github.com/sindresorhus/promise-fun)
 - Observables
 	- [RxJS](https://github.com/ReactiveX/RxJS) - Reactive programming.
-	- [observable-to-promise](https://github.com/sindresorhus/awesome-observables) - Convert an Observable to a Promise.
+	- [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - Convert an Observable to a Promise.
 	- [More…](https://github.com/sindresorhus/awesome-observables)
 - Streams
 	- [Highland.js](https://github.com/caolan/highland) - Manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
@@ -504,12 +469,12 @@
 ### Image
 
 - [sharp](https://github.com/lovell/sharp) - The fastest module for resizing JPEG, PNG, WebP and TIFF images.
-- [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
+- [image-type](https://github.com/sindresorhus/image-type) - Detect the type of an image.
+- [image-dimensions](https://github.com/sindresorhus/image-dimensions) - Get the dimensions of an image.
 - [gm](https://github.com/aheckmann/gm) - GraphicsMagick and ImageMagick wrapper.
 - [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
 - [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed.
 - [jimp](https://github.com/oliver-moran/jimp) - Image processing in pure JavaScript.
-- [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download.
 - [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator.
 - [ImageScript](https://github.com/matmen/ImageScript) - Image processing in JavaScript, utilizing WebAssembly for performance.
 
@@ -618,7 +583,6 @@
 - [Archiver](https://github.com/archiverjs/node-archiver) - Streaming interface for archive generation, supporting ZIP and TAR.
 - [pako](https://github.com/nodeca/pako) - High speed zlib port to pure js (deflate, inflate, gzip).
 - [tar-stream](https://github.com/mafintosh/tar-stream) - Streaming tar parser and generator. Also see [tar-fs](https://github.com/mafintosh/tar-fs).
-- [decompress](https://github.com/kevva/decompress) - Decompression module with support for `tar`, `tar.gz` and `zip` files out of the box.
 
 ### Network
 
@@ -754,6 +718,13 @@
 - [nodenv](https://github.com/nodenv/nodenv) - Version manager that is similar to Ruby's rbenv. It supports auto version switching.
 - [fnm](https://github.com/Schniz/fnm) - Cross-platform Node.js version manager built in Rust.
 
+### Cross-platform integration
+
+- [napi-rs](https://github.com/napi-rs/napi-rs) - Framework for building compiled Node.js add-ons in Rust via Node-API.
+- [Neon](https://github.com/neon-bindings/neon) - Rust bindings for writing safe and fast native Node.js modules.
+- [Edge.js](https://github.com/tjanczuk/edge) - Run .NET and Node.js code in the same process on Windows, macOS, and Linux.
+- [DotNetJS](https://github.com/Elringus/DotNetJS) - Consume .NET libraries in Node.js using this .NET interoperability layer.
+
 ### Natural language processing
 
 - [retext](https://github.com/retextjs/retext) - An extensible natural language system.
@@ -795,6 +766,7 @@
 - [Strapi](https://github.com/strapi/strapi) - Content Management Framework (headless-CMS) to build powerful APIs.
 - [Factor](https://github.com/FactorJS/factor) - Vue.js dashboard framework and headless CMS.
 - [AdminBro](https://github.com/SoftwareBrothers/adminjs) - Auto-generated admin panel with CRUD for all your resources.
+- [Graphweaver](https://github.com/exogee-technology/graphweaver) - CMS and headless GraphQL API.
 
 ### Forum
 
@@ -838,7 +810,6 @@
 - [adit](https://github.com/markelog/adit) - SSH tunneling made simple.
 - [file-type](https://github.com/sindresorhus/file-type) - Detect the file type of a Buffer.
 - [Bottleneck](https://github.com/SGrondin/bottleneck) - Rate limiter that makes throttling easy.
-- [ow](https://github.com/sindresorhus/ow) - Function argument validation for humans.
 - [webworker-threads](https://github.com/audreyt/node-webworker-threads) - Lightweight Web Worker API implementation with native threads.
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - Access the system clipboard (copy/paste).
 - [node-pre-gyp](https://github.com/mapbox/node-pre-gyp) - Makes it easy to publish and install Node.js C++ addons from binaries.
@@ -850,15 +821,22 @@
 - [jsdom](https://github.com/jsdom/jsdom) - JavaScript implementation of HTML and the DOM.
 - [@sindresorhus/is](https://github.com/sindresorhus/is) - Type check values.
 - [env-dot-prop](https://github.com/simonepri/env-dot-prop) - Get, set, or delete nested properties of process.env using a dot path.
-- [emittery](https://github.com/sindresorhus/emittery) - Simple and modern async event emitter.
 - [node-video-lib](https://github.com/gkozlenko/node-video-lib) - Pure JavaScript library for working with MP4 and FLV video files and creating MPEG-TS chunks for HLS streaming.
-- [basic-ftp](https://github.com/patrickjuchli/basic-ftp) – FTP/FTPS client.
+- [basic-ftp](https://github.com/patrickjuchli/basic-ftp) - FTP/FTPS client.
 - [cashify](https://github.com/xxczaki/cashify) - Currency conversion.
 - [genepi](https://github.com/Geode-solutions/genepi) - Automatically generate a native Node.js addon from C++ code.
 - [husky](https://github.com/typicode/husky) - Create Git hook scripts.
 - [patch-package](https://github.com/ds300/patch-package) - Make and preserve fixes to npm dependencies.
 - [editly](https://github.com/mifi/editly) - Declarative video editing API.
 - [wild-wild-path](https://github.com/ehmicky/wild-wild-path) - Object property paths with wildcards and regexes.
+- [uint8array-extras](https://github.com/sindresorhus/uint8array-extras) - Useful utilities for working with Uint8Array and Buffer.
+
+## Package Manager
+
+- [npm](https://docs.npmjs.com/about-npm) - The default package manager.
+- [pnpm](https://pnpm.io) - Disk space efficient package manager.
+- [yarn](https://yarnpkg.com) - Alternative package manager.
+- [bun](https://bun.sh) - All-in-one toolkit for JavaScript and TypeScript apps.
 
 ## Resources
 
@@ -868,7 +846,7 @@
 - [Nodeschool](https://github.com/nodeschool) - Learn Node.js with interactive lessons.
 - [The Art of Node](https://github.com/maxogden/art-of-node/#the-art-of-node) - An introduction to Node.js.
 - [module-best-practices](https://github.com/mattdesl/module-best-practices) - Some good practices when writing new npm modules.
-- [The Node Way](https://thenodeway.io) - An entire philosophy of Node.js best practices and guiding principles exists for writing maintainable modules, scalable applications, and code that is actually pleasant to read.
+- [The Node Way](https://github.com/FredKSchott/the-node-way) - An entire philosophy of Node.js best practices and guiding principles exists for writing maintainable modules, scalable applications, and code that is actually pleasant to read.
 - [You Don't Know Node.js](https://github.com/azat-co/you-dont-know-node) - Introduction to Node.js core features and asynchronous JavaScript.
 - [Portable Node.js guide](https://github.com/ehmicky/cross-platform-node-guide) - Practical guide on how to write portable/cross-platform Node.js code.
 - [Build a real web app with no frameworks](https://frameworkless.js.org/course) - A set of video tutorials/livestreams to help you build and deploy a real, live web app using a handful of simple libraries and the core Node.js modules.
@@ -881,7 +859,7 @@
 
 ### Articles
 
-- [Error Handling in Node.js](https://www.joyent.com/node-js/production/design/errors)
+- [Error Handling in Node.js](https://sematext.com/blog/node-js-error-handling/)
 - [Teach Yourself Node.js in 10 Steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
 - [Mastering the filesystem in Node.js](https://medium.com/@yoshuawuyts/mastering-the-filesystem-in-node-js-4706b7cb0801)
 - [Semver: A Primer](https://nodesource.com/blog/semver-a-primer/)
@@ -936,6 +914,7 @@
 - [Learn to build apps and APIs with Node.js](https://learnnode.com/friend/AWESOME) - Video course by Wes Bos.
 - [Real Time Web with Node.js](https://www.pluralsight.com/courses/code-school-real-time-web-with-nodejs)
 - [Learn and Understand Node.js](https://www.udemy.com/course/understand-nodejs/)
+- [Node.js Full Stack Developer Course](https://kinsta.com/academy/course/node-js-full-stack-developer/)
 
 ### Cheatsheets
 
@@ -951,6 +930,8 @@
 - [github-npm-stats](https://chrome.google.com/webstore/detail/github-npm-stats/oomfflokggoffaiagenekchfnpighcef) - Chrome extension that displays npm download stats on GitHub.
 - [npm semver calculator](https://semver.npmjs.com) - Visually explore what versions of a package a semver range matches.
 - [CodeSandbox](https://codesandbox.io/s/node-http-server-node) - Online IDE and prototyping.
+- [Amplication](https://github.com/amplication/amplication) - Auto-generates fully functional apps.
+- [RunJS](https://runjs.app) - Desktop JavaScript playground.
 
 ### Community
 
